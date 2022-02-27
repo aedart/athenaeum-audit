@@ -1,6 +1,7 @@
 # Athenaeum Audit
 
-An audit trail package for Laravel Eloquent Model. Stores the changes made on a given model into an "Audit Trails" table, along with the attributes that have been changed.
+An [audit trail](https://en.wikipedia.org/wiki/Audit_trail) package for Laravel Eloquent Model.
+It is able to store the changes made on a given model into an "audit trails" table, along with the attributes that have been changed.
 
 ## Example
 
