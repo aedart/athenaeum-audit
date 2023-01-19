@@ -15,6 +15,7 @@ use Throwable;
  */
 class RecordMultipleAuditTrailEntries extends RecordsEntries
 {
+
     /**
      * RecordMultipleAuditTrailEntries constructor.
      */
