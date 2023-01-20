@@ -2,8 +2,6 @@
 
 namespace Aedart\Audit\Providers;
 
-use Aedart\Audit\Events\ModelHasChanged;
-use Aedart\Audit\Listeners\RecordAuditTrailEntry;
 use Aedart\Audit\Subscribers\AuditTrailEventSubscriber;
 use Aedart\Support\Helpers\Config\ConfigTrait;
 use Aedart\Support\Helpers\Events\DispatcherTrait;
@@ -12,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Audit Trail Service Provider
  *
- * @author Alin Eugen Deac <ade@rspsystems.com>
+ * @author Alin Eugen Deac <aedart@gmail.com>
  * @package Aedart\Audit\Providers
  */
 class AuditTrailServiceProvider extends ServiceProvider
